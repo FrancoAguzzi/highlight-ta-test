@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HotForex App Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="header" role="banner">
+    <nav class="header__navbar navbar navbar-expand-lg navbar-dark" aria-label="Main navigation">
+      <div class="container header__container">
+        <a class="header__brand navbar-brand" href="#" aria-label="HotForex Home">
+          <img src="./logo.png" alt="HotForex" class="header__brand--highlight">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="header__menu collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="header__nav navbar-nav">
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="#">ABOUT</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="#">PRODUCTS</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="#">ACCOUNTS</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="#">PLATFORMS</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="#">TOOLS</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="#">EDUCATION</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="banner" role="region" aria-label="App Banner">
+      <div class="container">
+        <div class="row align-items-center flex-column-reverse flex-md-row">
+          <div class="banner__content col-md-5 text-center text-md-left">
+            <div class="banner__content-wrapper">
+                <div class="banner__title"><h1>HotForex App</h1><p>Your Indispensable Tool</p></div>
+                <ul class="banner__list" aria-label="App features">
+                  <li class="banner__list-item">Lorem Ipsum is simply dummy text of the printing and</li>
+                  <li class="banner__list-item">Lorem Ipsum is simply dummy text of the printing and</li>
+                  <li class="banner__list-item">Lorem Ipsum is simply dummy text of the printing</li>
+                </ul>
+                <div class="banner__stores mt-4" aria-label="Download app">
+                  <a href="#" class="banner__store-link" aria-label="Download on Google Play">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play Store" class="banner__store-img">
+                  </a>
+                  <a href="#" class="banner__store-link" aria-label="Download on App Store">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" class="banner__store-img">
+                  </a>
+                </div>
+              </div>
+            </div>
+          <div class="banner__image-wrapper col-md-7 text-center mb-md-0">
+            <img src="./main-banner.png" alt="App preview" class="banner__image img-fluid" role="presentation">
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="main" id="main-content">
+    <section class="form-section" aria-label="Registration form">
+      <div class="container">
+        <form class="form--register" id="register-form" autocomplete="off" novalidate>
+            <div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form__input form-control" placeholder="First Name" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form__input form-control" placeholder="Last Name" required>
+                    </div>
+                    <div class="col">
+                        <input type="email" class="form__input form-control" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="form--register__column form-row">
+                    <div class="col">
+                        <select class="form__input form-control" required>
+                            <option value="">Country of Residence</option>
+                            <option value="br">Brazil</option>
+                            <option value="us">United States</option>
+                            <option value="uk">United Kingdom</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form__input form-control" placeholder="+ Code" readonly>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form__input form-control" placeholder="Phone Number" required>
+                    </div>
+                    <div class="col">
+                        <select class="form__input form-control" required>
+                            <option value="USD">USD</option>
+                            <option value="BRL">BRL</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox-col">
+              <div class="checkbox-col__row">
+                  <input type="checkbox" id="policy" required>
+                  <label for="policy">
+                    I have read and accepted the privacy policy Trading Forex & CFDs is risky.
+                  </label>
+              </div>
+              <button type="submit" class="form__submit btn btn-danger ml-1" aria-label="Register now" style="white-space: nowrap;">REGISTER NOW</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="dummy-section py-5" aria-label="App features">
+      <div class="container text-center">
+        <h2 class="dummy-section__title mb-5">This is dummy text</h2>
+        <div class="dummy-section__pattern">
+            <img src="./secondary-pattern.png" alt="Visual pattern of vectors" class="dummy-section__image img-fluid">
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 mb-4 mb-md-0 sr-only">
+            <div class="dummy-section__icon-box">
+              <i class="dummy-section__icon fas fa-users fa-2x mb-3 text-danger" aria-hidden="true"></i>
+              <p class="dummy-section__text">It is a long established fact that a reader</p>
+            </div>
+            <div class="dummy-section__icon-box mt-4">
+              <i class="dummy-section__icon fas fa-chart-bar fa-2x mb-3 text-danger" aria-hidden="true"></i>
+              <p class="dummy-section__text">It is a long established fact that a reader</p>
+            </div>
+          </div>
+          <div class="col-12 mb-4 mb-md-0">
+            <img 
+              src="./secondary-banner.png" 
+              alt="Two smartphones with financial icons and explanatory text around them"
+              class="dummy-section__image img-fluid"
+              role="img"
+              aria-label="Two smartphones surrounded by financial icons and descriptive text, illustrating app features">
+          </div>
+          <div class="col-12 sr-only">
+            <div class="dummy-section__icon-box">
+              <i class="dummy-section__icon fas fa-project-diagram fa-2x mb-3 text-danger" aria-hidden="true"></i>
+              <p class="dummy-section__text">The standard chunk of Lorem Ipsum</p>
+            </div>
+            <div class="dummy-section__icon-box mt-4">
+              <i class="dummy-section__icon fas fa-signal fa-2x mb-3 text-danger" aria-hidden="true"></i>
+              <p class="dummy-section__text">The standard chunk of Lorem Ipsum</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lorem-section pt-5">
+      <div class="lorem-section__wrapper row align-items-center">
+        <div class="lorem-section__wrapper-child text-center mb-4 mb-md-0">
+          <img src="./third-banner.png" alt="" class="lorem-section__image" role="presentation">
+        </div>
+        <div class="lorem-section__wrapper-child text-white">
+          <h2 class="lorem-section__title">What is Lorem Ipsum?</h2>
+          <h3 class="lorem-section__subtitle mb-3">Lorem Ipsum is simply dummy</h3>
+          <p class="lorem-section__text"><span class="text-danger">Lorem Ipsum (passage)</span><br>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+          </p>
+          <p class="lorem-section__text"><span class="text-danger">Lorem Ipsum (passage)</span><br>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+          </p>
+          <p class="lorem-section__text"><span class="text-danger">Lorem Ipsum (passage)</span><br>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="lorem-section__download-section">
+      <div class="row mt-4 bg-white">
+        <div class="container">
+          <div class="col text-center lorem-section__download-area">
+            <p class="lorem-section__download-text mb-1">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.<br>
+            It has roots in a piece of classical Latin literature from 45 BC,<br>
+            making it over 2000 years old.<br>
+            <strong>DOWNLOAD IT NOW!</strong>
+            </p>
+            <div class="lorem-section__store-links">
+              <a href="#" class="lorem-section__store-link" aria-label="Download on Google Play">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play Store" class="lorem-section__store-img">
+              </a>
+              <a href="#" class="lorem-section__store-link" aria-label="Download on App Store">
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" class="lorem-section__store-img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__awards-bar">
+      <div class="container d-flex justify-content-between align-items-center flex-wrap">
+        <div class="footer__awards-title mb-2 mb-md-0">
+          <i class="fas fa-trophy text-danger"></i>
+          <span>Winner of 19 Industry Awards</span>
+        </div>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Google Plus"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__main">
+      <div class="container">
+        <div class="row">
+          <div class="footer__contact col-12 col-md-2 mb-4 mb-md-0">
+            <div class="footer__contact-title">CONTACT US</div>
+            <div class="footer__contact-item"><i class="fas fa-envelope"></i> support@hf.com</div>
+            <div class="footer__contact-item"><i class="fas fa-phone"></i> +357-24-400165</div>
+            <div class="footer__contact-item"><i class="fas fa-comments"></i> Live Chat</div>
+          </div>
+          <div class="footer__col col-6 col-md-2 mb-4 mb-md-0">
+            <div class="footer__col-title">ABOUT</div>
+            <ul class="footer__col-list">
+              <li><a href="#">About HotForex</a></li>
+              <li><a href="#">Why HotForex</a></li>
+              <li><a href="#">Regulation</a></li>
+              <li><a href="#">Security of Funds</a></li>
+            </ul>
+          </div>
+          <div class="footer__col col-6 col-md-2 mb-4 mb-md-0">
+            <div class="footer__col-title">PRODUCTS</div>
+            <ul class="footer__col-list">
+              <li><a href="#">Forex</a></li>
+              <li><a href="#">Metals and Oil</a></li>
+              <li><a href="#">Commodities</a></li>
+            </ul>
+          </div>
+          <div class="footer__col col-6 col-md-2 mb-4 mb-md-0">
+            <div class="footer__col-title">TRADING</div>
+            <ul class="footer__col-list">
+              <li><a href="#">Trading Platforms</a></li>
+              <li><a href="#">Account Types</a></li>
+              <li><a href="#">Spreads</a></li>
+              <li><a href="#">Leverage</a></li>
+            </ul>
+          </div>
+          <div class="footer__col col-6 col-md-2 mb-4 mb-md-0">
+            <div class="footer__col-title">PROMOTIONS</div>
+            <ul class="footer__col-list">
+              <li><a href="#">Loyalty Program</a></li>
+              <li><a href="#">Refer a Friend</a></li>
+              <li><a href="#">Contests</a></li>
+              <li><a href="#">Bonus Offers</a></li>
+            </ul>
+          </div>
+          <div class="footer__col col-6 col-md-2 mb-4 mb-md-0">
+            <div class="footer__col-title">AFFILIATES</div>
+            <ul class="footer__col-list">
+              <li><a href="#">Affiliate Program</a></li>
+              <li><a href="#">White Label</a></li>
+              <li><a href="#">Introducing Brokers</a></li>
+              <li><a href="#">API Trading</a></li>
+            </ul>
+          </div>
+          <div class="footer__col col-6 col-md-2 mb-4 mb-md-0">
+            <div class="footer__col-title">EDUCATION</div>
+            <ul class="footer__col-list">
+              <li><a href="#">Forex Education</a></li>
+              <li><a href="#">Video Tutorials</a></li>
+              <li><a href="#">Webinars</a></li>
+              <li><a href="#">Events</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
