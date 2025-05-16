@@ -1,7 +1,5 @@
 # HotForex App Landing Page
 
-![Preview](public/preview.png)
-
 ## ✨ Overview
 
 This project is a static landing page developed as part of a technical challenge, focusing on code quality, accessibility, and modern front-end best practices.
